@@ -3,6 +3,12 @@
 
 print ("Tener en cuenta que todas las medidas deben entregarse en el sistema internacional y en el orden constante elástica, masa y elongación inicial")
 
+#Observar que aunque el sistema sea un resorte colgando podemos ignorar el efecto de la gravedad ya que ma = -(kx + mg), haciendo un cambio de sistema de 
+#coordenadas podemos llegar a la ecuación ma = -kx lo cual lo único que cambiara es la amplitud de la soluciones(sea la evolución temporal o la el espacio de fase) al 
+#igual que como se dijo anteriormente se desplazan los ejes pero el comportamiento es lo mismo y las futuras conclusiones no dependen de ello, por otro lado varios libro 
+#de E.D. hacen ese cambio de coordenadas que no le ponen o quitan nada al problema a no ser que ser que se desee tener una solución exacta y no el comportamiento del sistema 
+#que tomando en cuenta nuestro sistema tampoco es que cambie mucho
+
 class Oscilador:
 
 #La forma de comentar se debe a varios errores de identacion al usar """ """, se optó por el 
